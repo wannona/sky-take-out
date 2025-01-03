@@ -12,3 +12,9 @@ sky:
     access-key-id: LTAI5tJNTft8JSHW6tSfhNfS
     access-key-secret: L7dvn9j7hfV0eP6VQzUVeqUsYRTAsV
     bucket-name: sky-melzj
+
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
