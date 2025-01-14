@@ -62,4 +62,18 @@ public interface SetmealService {
      * @param id
      */
     void updateStatus(Integer status, Long id);
+
+    /**
+     * 条件查询
+     * @param setmeal
+     * @return
+     */
+    List<Setmeal> list(Setmeal setmeal);
+
+    /**
+     * 根据id查询菜品选项
+     * @param id
+     * @return
+     */
+    List<DishItemVO> getDishItemById(Long id);
 }
