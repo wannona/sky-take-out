@@ -19,7 +19,6 @@
                 and dishFlavor_id = #{dishFlavorId}
             </if>
         </where>
-        order by sort asc , create_time desc
     </select>
 
 </mapper>
